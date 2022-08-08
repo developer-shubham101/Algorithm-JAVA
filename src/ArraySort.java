@@ -6,14 +6,17 @@ public class ArraySort {
 	ArraySort() {
 		// int[] tmpArray = { 2, 5, 3, 1, 4, 8, 6, 7, 9, 0 };
 		// int[] tmpArray = { 23, 55, 13, 41, 24, 86, 77, 77, 59, 40 };
-		int[] tmpArray = { 23, 24, 40, 41, 55, 59, 77, 77, 86, 13 };
-		for (int i = 0; i < tmpArray.length; i++) {
-			arrayValue[i] = tmpArray[i];
-		}
 
-		// for (int i = 0; i < arraySize; i++) {
-		// arrayValue[i] = (int) (Math.random() * 10) + 10;
-		// }
+		/*
+		 * int[] tmpArray = { 23, 24, 40, 41, 55, 59, 77, 77, 86, 13 };
+		 * for (int i = 0; i < tmpArray.length; i++) {
+		 * arrayValue[i] = tmpArray[i];
+		 * }
+		 */
+
+		for (int i = 0; i < arraySize; i++) {
+			arrayValue[i] = (int) (Math.random() * 10) + 10;
+		}
 	}
 
 	void selectionSort() {
